@@ -506,3 +506,17 @@ button[type="submit"]:hover {
 .breadcrumbs a:hover {
     text-decoration: underline;
 }
+
+.form-error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+.form-success {
+    color: green;
+    font-size: 1em;
+    margin-top: 10px;
+}
+input.error, textarea.error {
+    border: 1px solid red;
+}
